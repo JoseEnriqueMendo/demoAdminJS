@@ -18,6 +18,8 @@ const db = await new Adapter('postgresql', {
   ssl: false,
 }).init();
 
+// change table names and relationships between tables
+
 const adminJs = new AdminJS({
   resources: [
     {
